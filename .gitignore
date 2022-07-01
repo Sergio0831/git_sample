@@ -1,0 +1,17 @@
+# ignore all .txt files
+*.txt
+
+# but do track USER.txt, even though you're ignoring .txt files above
+!USER.txt
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory named build
+build/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
